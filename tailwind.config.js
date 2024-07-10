@@ -20,6 +20,9 @@ export default {
             'background-position': 'right center'
           }
         },
+      },
+      boxShadow: {
+        'dark': '0 20px 60px -15px rgba(0, 0, 0, 0.8)',
       }
     },
   },
