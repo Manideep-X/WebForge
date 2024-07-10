@@ -4,7 +4,7 @@ import { Button } from '@chakra-ui/react'
 const Topbar = () => {
   return (
     <nav className='flex justify-between py-4 px-[8vw]'>
-      <div className="flex-initial w-72">
+      <div className="flex-initial w-64">
         <img src="/src/assets/logo1.png" alt="Logo"/>
       </div>
       <div className='flex-initial w-60'>
