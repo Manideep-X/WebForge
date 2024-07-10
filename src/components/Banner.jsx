@@ -7,12 +7,12 @@ const Banner = () => {
         title2: " with a little",
         twist: "twist✦",
         description: "Choose from various templates, personalize the elements, and seamlessly download your site. Experience simple, efficient web design for FREE.",
-        imgSrc: "/src/assets/searchImg.svg"
+        imgSrc: "/src/assets/websiteCreator.svg"
     }
 
     return (
         <section>
-            <HStack className='absolute top-0 w-full border h-[40rem] pl-[8vw] pt-10'>
+            <HStack className='w-full h-[35rem] pl-[8vw] pr-[1vw] pb-24'>
                 <Box className='flex-row w-[46%] items-baseline'>
                     <Heading>{bannerText.title}</Heading>
                     <HStack>
@@ -25,7 +25,7 @@ const Banner = () => {
                         <Button className='block text-lg font-black bg-[#132330de] text-white py-2 px-5 rounded-full hover:bg-[#182a38f3] active:bg-[#000000] shadow-xl active:shadow-none transition-all'>Get Started</Button>
                     </Box>
                 </Box>
-                <Image className='w-1/2' src={bannerText.imgSrc} alt='WebForge' />
+                <Image className='w-3/5' src={bannerText.imgSrc} alt='WebForge' />
             </HStack>
         </section>
     )
